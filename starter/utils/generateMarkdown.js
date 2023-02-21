@@ -53,7 +53,7 @@ ${data.license}
 ${data.contributing}
 
 ## Tests
-${data.contributing}
+${data.test}
 
 ## Questions
 Check out my [GiHub](https://github.com/${data.username}) page for more details.
