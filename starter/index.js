@@ -18,12 +18,22 @@ const questions = [
         name: 'description',
         message: 'Please put your project description'
     },
-    // Installation guide
+    // Installation
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please describe the installation guide for this application'
+    },
     // Usage
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How can you use this application?'
+    },
     // License (multiple choice)
     {
         type: 'list',
-        choices: ['MIT', 'GPL', 'GNU', 'Bsd-2-Clause'],
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
         name: 'license',
         message: 'What is your project license type?'
     }
@@ -53,6 +63,7 @@ function init() {
             console.log(answers);
             const markdown = generateMarkdown(answers);
             console.log(markdown);
+            writeToFile('README.md', markdown);
         });
 }
 
