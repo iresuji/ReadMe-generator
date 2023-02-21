@@ -12,7 +12,9 @@ Base documents provided by Trilogy education services, submited document by me, 
 ## License
 MIT license. Please see license on repository folder.
 
-## My ReadMe generator link
-https://github.com/iresuji/ReadMe-generator
+## My ReadMe generator links
+Repository:https://github.com/iresuji/ReadMe-generator
+
+Walkthrough video:
 
 ![screenshot](./assets/img/Screenshot%202023-01-24%20231027.jpg)

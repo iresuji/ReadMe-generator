@@ -1,9 +1,9 @@
-# d
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Test
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 ## Description
-bvc
+This is a ReadMe generator
 
 
 ## Table of Contents
@@ -17,20 +17,20 @@ bvc
 
 
 ## Installation
-
+npm and node.js required
 
 ## Usage
-asc
+This generates a ReadMe file
 
 ## License
-MIT
+APACHE 2.0
 
 ## Contributing
-zcx
+Me
 
 ## Tests
-zcx
+Me
 
 ## Questions
-Check out my [GiHub](https://github.com/) page for more details.
-For any additional questions please contact me at (zxc)
+Check out my [GiHub](https://github.com/iresuji) page for more details.
+For any additional questions please contact me at (iresuji@hotmail.com)

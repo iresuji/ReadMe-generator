@@ -13,7 +13,7 @@ const questions = [
         message: 'What is your project title?'
     },
 
-    //Table of content
+    //Table of content in markdown file
 
     // Description
     {
