@@ -36,7 +36,7 @@ const questions = [
     // License (multiple choice)
     {
         type: 'list',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3'],
         name: 'license',
         message: 'What is your project license type?'
     },
@@ -64,7 +64,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address?' //Can we add a promp and autocomplete?
+        message: 'What is your email address?'
     },
 ];
 

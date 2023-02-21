@@ -31,16 +31,16 @@ function generateMarkdown(data) {
 ${data.description !== '' ? generateDescription(data.description) : ''}
 
 ## Table of Contents
-1.  [Description](#Description)
-2.  [Installation guide](#Installation-guide)
-3.  [Usage](#Usage)
-4.  [License](#License)
-5.  [Contributing](#Contributing)
-6.  [Tests](#Tests)
-7.  [Questions](#Questions)
+1.  [Description](#description)
+2.  [Installation guide](#installation)
+3.  [Usage](#usage)
+4.  [License](#license)
+5.  [Contributing](#contributing)
+6.  [Tests](#tests)
+7.  [Questions](#questions)
 
 
-## Installation guide
+## Installation
 ${data.installation}
 
 ## Usage
@@ -64,5 +64,3 @@ For any additional questions please contact me at (${data.email})
 }
 
 module.exports = generateMarkdown;
-
-//Add a badge depending on license at the beggining missing
