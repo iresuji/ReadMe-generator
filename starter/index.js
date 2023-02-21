@@ -12,6 +12,9 @@ const questions = [
         name: 'title',
         message: 'What is your project title?'
     },
+
+    //Table of content
+
     // Description
     {
         type: 'input',
@@ -36,12 +39,33 @@ const questions = [
         choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
         name: 'license',
         message: 'What is your project license type?'
-    }
+    },
     // Contributing
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Who has contributed to the creation of this application?'
+    },
     // Tests
+    {
+        type: 'input',
+        name: 'test',
+        message: 'How can you test this application?'
+    },
+
     // Questions
     // GitHub username
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your gitHub username?'
+    },
     // email address
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?' //Can we add a promp and autocomplete?
+    },
 ];
 
 // function to write README file
@@ -63,7 +87,7 @@ function init() {
             console.log(answers);
             const markdown = generateMarkdown(answers);
             console.log(markdown);
-            writeToFile('README.md', markdown);
+            writeToFile('README.md', markdown); //Create the README file
         });
 }
 
