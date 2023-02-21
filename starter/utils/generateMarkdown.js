@@ -32,7 +32,7 @@ ${data.description !== '' ? generateDescription(data.description) : ''}
 
 ## Table of Contents
 1.  [Description](#description)
-2.  [Installation guide](#installation)
+2.  [Installation](#installation)
 3.  [Usage](#usage)
 4.  [License](#license)
 5.  [Contributing](#contributing)
