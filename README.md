@@ -17,4 +17,6 @@ Repository:https://github.com/iresuji/ReadMe-generator
 
 Walkthrough video:
 
-![screenshot](./assets/img/Screenshot%202023-01-24%20231027.jpg)
+https://drive.google.com/file/d/1HvfPkBJT0z7mYFvo-M7c7qTOO61NkCGs/view
+
+![screenshot](./img/Screenshot%202023-02-21%20233105.jpg)
